@@ -1,0 +1,160 @@
+placeholder-format:
+  time:
+    # Time zones: https://www.mkyong.com/java/java-display-list-of-timezone-with-gmt/
+    # Or google it: "what is my time zone"
+    time-zone: "Asia/Shanghai"
+
+    # Use system default time zone instead of searching for that?
+    use-system-zone: false
+
+    # Formats/examples: https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
+    # Used for %time% placeholder.
+    time-format: "mm:HH"
+    # Used for %date% placeholder.
+    date-format: "yyyy/MM/dd"
+
+# Custom variables with unlimited variables.
+# Use: <something>: "&6Message...'
+custom-variables:
+  <name>: "&7&o%player-name%"
+  <lines>: "&5&m======================"
+
+# Should enable the tablist groups?
+tablist-groups:
+  enabled: false
+
+  # Group refreshing time in milliseconds.
+  # If you want animation just decrease the value.
+  refresh-time: 160
+
+# Group list
+# NOTE: If the permissions are not works correctly then you should use
+# a permission manager plugin such as LuckPerms.
+groups:
+  admin:
+    name:
+    - "&a[&cAdmin&a]&6 %player-name%"
+    - "&a"
+    - "&a["
+    - "&a[&cA"
+    - "&a[&cAd"
+    - "&a[&cAdm"
+    - "&a[&cAdmi"
+    - "&a[&cAdmin"
+    - "&a[&cAdmin&a"
+    - "&a[&cAdmin&a]"
+    - "&a[&cAdmin&a]&6 %player-name%"
+    - "&a[&cAdmin&a]&6 %player-name%"
+    - "&a[&cAdmin&a]&a %player-name%"
+    - "&a[&cAdmin&a]&e %player-name%"
+    - "&a[&cAdmin&a]&f %player-name%"
+    - "&a[&cAdmin&a]&c %player-name%"
+    - "&a[&cAdmin&a]&b %player-name%"
+    - "&a[&cAdmin&a]&9 %player-name%"
+    permission: groups.admin # any permission name are accepted
+  default:
+    name: "&7 %player-name%"
+    permission: tablist.default
+
+# TabList, header & footer
+# Current plugin placeholders: https://github.com/montlikadani/TabList/wiki/Placeholders#bungee
+# Use symbols: https://github.com/montlikadani/TabList/wiki/Symbols
+tablist:
+  # Enable tablist header & footer?
+  enable: true
+
+  # Disabled servers, where you can not see the tab.
+  disabled-servers:
+  #- serverName
+
+  # Blacklisted players, where the player not see the tab.
+  blacklisted-players:
+  #- playerName
+
+  # How often to refresh the tablist (in milliseconds).
+  refresh-interval: 400
+
+  header:
+  - "&b&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&6&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&4&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&9&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&a&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&e&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&5&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&b&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&6&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&4&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&9&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&a&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&e&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&5&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&b&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&6&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&4&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&9&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&a&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&e&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&5&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+  - "&b&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
+
+  footer:
+  - "<lines>\n&7我们的QQ群：571075430"
+
+  # Per player tablist
+  per-player:
+    BiShop:
+      header:
+      - "&2Tab&6List\n&7<93>&3 欢迎管理 &l%player-name%&7! <91>\n \n&5&l&m================="
+      footer:
+      - "&5&l&m================="
+      - "&a&l&m================="
+      - "&b&l&m================="
+      - "&f&l&m================="
+      - "&7&l&m================="
+      - "&4&l&m================="
+      - "&6&l&m================="
+    hulu:
+      header:
+      - "&2Tab&6List\n&7<93>&3 欢迎管理 &l%player-name%&7! <91>\n \n&5&l&m================="
+      footer:
+      - "&5&l&m================="
+      - "&a&l&m================="
+      - "&b&l&m================="
+      - "&f&l&m================="
+      - "&7&l&m================="
+      - "&4&l&m================="
+      - "&6&l&m================="
+
+  # Per server tablist
+  per-server:
+    dungeon:
+      header:
+      - "&7<93>&3 欢迎&e &l%player-name%&7 <91>&6 来到&a&l艾&6&1伯&2&l塔&5&l服务器"
+      footer:
+      - "&7<28>&a 输入/warp zc传送到主城!&7 <28>\n<lines>\n&7我们的QQ群：571075430"
+
+    lobby:
+      header:
+      - "&7<93>&3 欢迎&e &l%player-name%&7 <91>&6 来到&a&l艾&6&l伯&2&l塔&5&l服务器"
+      footer:
+      - "&7<28>&a 输入/warp zc传送到主城!&7 <28>\n<lines>\n&7我们的QQ群：571075430"
+
+# Plugin messages
+messages:
+  reload-config: "&aThe plugin successfully reloaded!"
+  no-permission: "&cYou don't have permission for this!"
+  toggle:
+    no-console: "&cUsage:&7 /tablist toggle <player/all>"
+    no-player: "&cUsage:&7 /tablist toggle <player>"
+    enabled: "&aThe tab is successfully turned on!"
+    disabled: "&cThe tab is successfully turned off!"
+    no-players-available: "&cThere is no player available on the server."
+  chat-messages:
+  - "&8&l-----------"
+  - "&7/&atablist reload&7 (or rl)&e -&6 Reloads the plugin and config."
+  - "&7/&atablist toggle [player/all]&e -&6 Toggle the tablist."
+  - "&8&l-----------"
+
+# DO NOT CHANGE THIS!
+config-version: 7
