@@ -99,7 +99,7 @@ tablist:
   - "&b&l<93>&3 欢迎您，&e&l%player-name%&7\n&6延迟:&r %ping%&7ms\n<lines>"
 
   footer:
-  - "<lines>\n&7在线玩家:%bungee-online%\n&7我们的QQ群：571075430"
+  - "&7<28>&a 当前服务器在线玩家:&6%server-online%&7 <28>\n&7<28>&a 总在线玩家:&6%bungee-online%&7 <28>\n<lines>\n&7我们的QQ群：571075430"
 
   # Per server tablist
   per-server:
