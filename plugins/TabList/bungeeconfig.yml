@@ -107,13 +107,13 @@ tablist:
       header:
       - "&7<93>&3 欢迎&e &l%player-name%&7 <91>&6 来到&a&l艾&6&1伯&2&l塔&5&l服务器"
       footer:
-      - "&7<28>&a 输入/warp zc传送到主城!&7 <28>\n<lines>\n&7我们的QQ群：571075430"
+      - "&7<28>&a 当前服务器在线玩家:&6%server-online%&7 <28>\n&7<28>&a 总在线玩家:&6%bungee-online%&7 <28>\n&7<28>&a 输入/warp zc传送到主城!&7 <28>\n<lines>\n&7我们的QQ群：571075430"
 
     lobby:
       header:
       - "&7<93>&3 欢迎&e &l%player-name%&7 <91>&6 来到&a&l艾&6&l伯&2&l塔&5&l服务器"
       footer:
-      - "&7<28>&a 输入/warp zc传送到主城!&7 <28>\n<lines>\n&7我们的QQ群：571075430"
+      - "&7<28>&a 当前服务器在线玩家:&6%server-online%&7 <28>\n&7<28>&a 总在线玩家:&6%bungee-online%&7 <28>\n&7我们的QQ群：571075430"
 
 # Plugin messages
 messages:
