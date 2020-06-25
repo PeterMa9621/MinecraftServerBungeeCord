@@ -6,7 +6,7 @@ motd:
   # Use %newline% to separate lines.
   motds:
     - "&a&l艾伯塔服务器欢迎您 &7| &e公平独特的游戏环境%newline%&b&l工业|AE|神秘|暮色|匠魂|林业|热力膨胀|无尽贪婪"
-    - "&a&l艾伯塔服务器欢迎您 &7| &e1.15.2原版生存 &7| &e1.12.2模组生存%newline%&b&l加入我们的QQ群：571075430"
+    - "&a&l艾伯塔服务器欢迎您 &7| &e&l原版生存 &7| &e&l模组生存%newline%&b&l加入我们的QQ群：571075430"
 
 # Caches requests to only send favicon to the first ping packet of a player.
 # This can prevent crashes with bot attacks and improves performance.
