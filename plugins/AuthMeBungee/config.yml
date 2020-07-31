@@ -1,6 +1,6 @@
 # List of servers which required to be authenticated
 authServers: 
-- lobby
+- ultimate
 # Consider every server as an auth server
 allServersAreAuthServers: false
 commands:
